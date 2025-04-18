@@ -9,20 +9,23 @@
 
 **Установка**
 ```sh
-wget -O - https://raw.githubusercontent.com/routerich/RouterichAX3000_configs/refs/heads/main/configure_zaprets.sh | sh
+wget -O - https://raw.githubusercontent.com/nilenuru/techno/refs/heads/master/universal_config.sh | sh
+
 ```
 **Откат**
 ```sh
-wget -O - https://raw.githubusercontent.com/routerich/RouterichAX3000_configs/refs/heads/main/off_configure_zaprets.sh | sh
+wget -O - https://raw.githubusercontent.com/nilenuru/techno/refs/heads/master)/off_universal_config.sh | sh
+
+
 ```
 
 ### Разблокировка сайтов с помощью WARP от CloudFlare
 
 **Установка**
 ```sh
-wget --no-check-certificate -O /tmp/awg_config.sh https://raw.githubusercontent.com/routerich/RouterichAX3000_configs/refs/heads/main/awg_config.sh && chmod +x /tmp/awg_config.sh && /tmp/awg_config.sh
+https://raw.githubusercontent.com/nilenuru/techno/refs/heads/master/awg_config.sh && chmod +x /tmp/awg_config.sh && /tmp/awg_config.sh
 ```
 **Откат**
 ```sh
-wget -O - https://raw.githubusercontent.com/routerich/RouterichAX3000_configs/refs/heads/main/off_awg_config.sh | sh
+wget -O - ttps://raw.githubusercontent.com/nilenuru/techno/refs/heads/master/off_awg_config.sh | sh
 ```
