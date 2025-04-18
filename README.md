@@ -1,5 +1,10 @@
 # Xiaomi AX3000T
 
+**Полная настройка**
+```sh
+wget --no-check-certificate -O /tmp/universal_config.sh https://raw.githubusercontent.com/nilenuru/techno/refs/heads/master/universal_config.sh && chmod +x /tmp/universal_config.sh && /tmp/universal_config.sh
+
+```
 ### Разблокировка сайтов с помощью youtubeUnblock + https-dns-proxy
 Разблокировка сайтов с помощью подмены **Hello пакетов DPI** (приложение **youtubeUnblock**) + точечное перенаправление доменов, которые находятся в **геоблоке на ComssDNS** (через перенаправление dnsmasq и пакет **https-dns-proxy**) + добавление правил для **блокировки протокола QUIC** на уровне роутера
 
