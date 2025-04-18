@@ -14,7 +14,7 @@ wget -O - https://raw.githubusercontent.com/nilenuru/techno/refs/heads/master/un
 ```
 **Откат**
 ```sh
-wget -O - https://raw.githubusercontent.com/nilenuru/techno/refs/heads/master)/off_universal_config.sh | sh
+wget -O - https://raw.githubusercontent.com/nilenuru/techno/refs/heads/master/off_universal_config.sh | sh
 
 
 ```
